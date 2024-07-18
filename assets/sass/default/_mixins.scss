@@ -1,1 +1,92 @@
 @import "variables";
+
+@mixin text-trans($value) {
+    text-transform: $value;
+  }
+  
+  @mixin flex-justify($value) {
+    display: flex;
+    justify-content: $value;
+  }
+
+  @mixin flex-align($value) {
+    display: flex;
+    align-items: $value;
+  }
+
+  @mixin flex-gap($value) {
+    display: flex;
+    gap: $value;
+  }
+  
+  @mixin flex-dir($dir) {
+    display: flex;
+    flex-direction: $dir;
+  }
+
+  @mixin flex-justify-align($value,$value2) {
+    display: flex;
+    align-items: $value2;
+    justify-content: $value;
+  }
+  
+  @mixin flex-dir-justify($value,$value2) {
+    display: flex;
+    flex-direction: $value;
+    justify-content: $value2;
+  }
+  
+  @mixin a-styling($color, $fsize, $fwei) {
+    color: $color;
+    font-size: $fsize;
+    font-weight: $fwei;
+  }
+  
+  @mixin position-top($pos, $zIndex, $top, $left) {
+    position: $pos;
+    z-index: $zIndex;
+    left: $left;
+    top: $top;
+  }
+  
+  @mixin height-obj {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @mixin font-icon($value) {
+    & {
+      display: flex;
+      text-indent: -9999px;
+    }
+  
+    &::before {
+      content: $value;
+      font-family: "fontAwesome";
+      display: flex;
+      text-indent: 0;
+    }
+  }
+  
+  @mixin hover($value){
+    &:hover{
+        color: $value;
+        cursor: pointer;
+        transition: all 1s;
+    }
+
+  }
+
+  @mixin heading-span {
+    & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .line-h {
+      width: 257px;
+      border-bottom: 2px solid #3f3c3c;
+      @include font-icon(" ");
+    }
+  }

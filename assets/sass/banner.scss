@@ -1,7 +1,13 @@
+@import "default/mixins";
+@import "default/variables";
 /*=================================
   banner styling starts here
 =================================*/
-
+.banner{
+    & .wrapper{
+        width: 100%;
+    }
+}
 /*=================================
   banner styling ends here
 =================================*/  

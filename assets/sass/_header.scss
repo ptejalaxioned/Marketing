@@ -1,7 +1,32 @@
+@import "default/mixins";
+@import "default/variables";
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  & .wrapper {
+    width: 100%;
+  }
 
+  & .hamburger {
+    display: none;
+  }
+}
+.nav-list {
+  display: flex;
+
+  & li {
+    width: 25%;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  & a {
+    padding: 13px 30px;
+    color: #000;
+    font-size: 22.5px;
+  }
+}
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/

@@ -76,9 +76,56 @@ sub {
 .cf:after {
   clear: both; }
 
+/*for all*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif; }
+
+a {
+  display: inline-block;
+  text-decoration: none; }
+
+li {
+  display: inline-block;
+  list-style-type: none; }
+
+/*for wrapper*/
+.wrapper {
+  max-width: 1920px;
+  width: 86.7%;
+  margin: 0 auto; }
+
+.all-caps, .single-caps::first-letter {
+  text-transform: uppercase; }
+
+.first-caps {
+  text-transform: capitalize; }
+
 /*=================================
   Header styling starts here
 =================================*/
+header .wrapper {
+  width: 100%; }
+header .hamburger {
+  display: none; }
+
+.nav-list {
+  display: flex; }
+  .nav-list li {
+    width: 25%;
+    background-color: #f1f1f1;
+    text-align: center; }
+  .nav-list a {
+    padding: 13px 30px;
+    color: #000;
+    font-size: 22.5px; }
+
 /*=================================
   Header styling ends here
 =================================*/
