@@ -4,9 +4,86 @@
   banner styling starts here
 =================================*/
 .banner{
+    padding:68px 1.7% 83px;
     & .wrapper{
         width: 100%;
     }
+
+    & p{
+        padding: 31px 0px 42px;
+        font-size: 19px;
+    }
+}
+
+.slider-div{
+    overflow: hidden;
+}
+ .slider-list{
+    display: inline-flex;
+    justify-content: space-between;
+    transition: transform 1s;
+    width: 100%;
+    position: relative;
+
+    z-index: 1;
+    & li{
+        width: 100%;
+        position: relative;
+    }
+    & figure{
+        width: 100%;
+    }
+    & img{
+        width: 1239px;
+        @include height-obj;
+        
+    }
+}
+.img-span{
+    width: 13.4%;
+    padding: 15px 30px;
+    display: flex;
+    @include position-top(absolute ,3,4.5%,85%);
+    background-color: #fff;
+    font-size: 20px;
+}
+h1{
+    font-size: 44.5px;
+    font-weight: 600;
+}
+
+.arrows{
+    padding: 20px;
+    @include flex-justify-align(space-between,center);
+    background-color: #616161;
+    color: #fff;
+}
+
+.left-arrow{
+    @include font-icon("\f060")
+}
+.right-arrow{
+    @include font-icon("\f061")
+}
+.dots{
+    @include flex-gap(4px);
+}
+.dot{
+    height: 19px;
+    @include font-icon("\f45c");
+    &::before{
+    border: 2px solid #fff;
+   color: #616161;
+   font-size: 15px;
+    }
+}
+.arrow{
+    padding: 2px 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #616161;
+    font-size: 21px;
+    font-weight: 900;
 }
 /*=================================
   banner styling ends here
