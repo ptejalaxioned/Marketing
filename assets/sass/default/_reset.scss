@@ -1,6 +1,8 @@
+@charset "utf-8";
 /* ==========================================================================
    1. CSS Reset Code
    ========================================================================== */
+
 /* 1.1. Eric Meyers Reset
    http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -18,96 +20,64 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 /* Force scrollbar */
-html {
-  overflow-y: scroll; }
+html { overflow-y: scroll; }
 
 /* Align radios and text inputs with their label */
-input[type='radio'] {
-  vertical-align: text-bottom; }
+
+input[type='radio'] { vertical-align: text-bottom; }
 
 /* Hand cursor on clickable input elements */
 label,
 input[type='button'],
 input[type='submit'],
 button {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 strong {
   font-weight: bold;
   font-family: inherit;
-  font-size: inherit; }
+  font-size: inherit;
+}
 
-em {
-  font-style: italic; }
+em { font-style: italic; }
 
 img {
   width: 100%;
   border: 0;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 sub,
 sup {
   vertical-align: baseline;
   position: relative;
   font-size: 55%;
-  line-height: 0; }
+  line-height: 0;
+}
 
-sup {
-  top: -.7em; }
-
-sub {
-  bottom: -.25em; }
+sup { top: -.7em; }
+sub { bottom: -.25em; }
 
 /* 1.2. Clear Fix
    ========================== */
+
 .cf:before,
 .cf:after {
   display: table;
-  content: " "; }
+  content: " ";
+}
 
-.cf:after {
-  clear: both; }
+.cf:after { clear: both; }
 
-/*=================================
-  Header styling starts here
-=================================*/
-/*=================================
-  Header styling ends here
-=================================*/
-/*=================================
-  main styling starts here
-=================================*/
-/*=================================
-  banner styling starts here
-=================================*/
-/*=================================
-  banner styling ends here
-=================================*/
-/*=================================
-  main styling ends here
-=================================*/
-/*=================================
-  footer styling starts here
-=================================*/
- /*=================================
-  footer styling ends here
-=================================*/
-/*media query starts*/
-/*media query for 995px starts here*/
-/*media query for 480px starts here*/
-/*=================================
-  Hover styling starts here
-=================================*/
-/*=================================
-  Hover styling ends here
-=================================*/
 
-/*# sourceMappingURL=style.css.map */
