@@ -40,5 +40,8 @@ li {
 .first-caps{
     @include text-trans(capitalize);
 }
+.header-span{
+  text-align: center;
+}
  
 

@@ -109,6 +109,9 @@ li {
 .first-caps {
   text-transform: capitalize; }
 
+.header-span {
+  text-align: center; }
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -353,6 +356,30 @@ h1 {
 
  /*=================================
   plans styling ends here
+=================================*/
+/*=================================
+  card styling starts here
+=================================*/
+.card {
+  padding: 58px; }
+  .card h2 {
+    width: 17%;
+    margin: auto;
+    font-size: 33px;
+    padding-bottom: 19px;
+    border-bottom: 8px solid #cccc; }
+  .card-list {
+    display: flex;
+    gap: 20px; }
+
+ /*=================================
+  card styling ends here
+=================================*/
+/*=================================
+  contact styling starts here
+=================================*/
+ /*=================================
+  contact styling ends here
 =================================*/
 /*=================================
   main styling ends here

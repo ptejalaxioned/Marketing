@@ -1,0 +1,15 @@
+@import "default/mixins";
+@import "default/variables";
+/*=================================
+  card styling starts here
+=================================*/ 
+.card{
+    padding: 58px;
+    @include heading-width(17%);
+    &-list{
+        @include flex-gap(20px);
+    }
+}
+ /*=================================
+  card styling ends here
+=================================*/ 
