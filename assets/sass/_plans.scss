@@ -1,0 +1,92 @@
+@import "default/mixins";
+@import "default/variables";
+/*=================================
+  plans styling starts here
+=================================*/ 
+.plans{
+    padding: 50px 0;
+    text-align: center;
+
+    & h2{
+        font-size: 33px;
+        padding-bottom: 19px;
+    }
+
+    & p{
+        font-size: 19px;
+    }
+  
+}
+.plan-list{
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+    & li{
+        width: 33%;
+   @include flex-dir(column);
+   align-items: center;
+    }
+        }
+
+.plan-features-list{
+    width: 100%;
+    @include flex-dir(column);
+    & li{
+        width: 100%;
+        @include flex-dir(row);
+        justify-content: center;
+        gap: 4px;
+        font-size: 19px;
+    }
+}
+
+.border-grey{
+    width: 100%;
+    padding: 27px 0;
+    border: 0.5px solid #dddadad8;
+    border-top: none;
+}
+
+.plan-heading{
+    background-color: #000;
+    color: #fff;
+    padding: 45px;
+    & h2{
+        padding-bottom: 0;
+    }
+}
+
+.pro{
+    background-color: #616161;
+}
+
+.features-li span{
+font-weight: bold;
+}
+
+.sign-up {
+    padding: 20px 30px;
+@include a-styling(#ffff, 18px, bold);
+background-color: #4caf50;
+}
+
+.price-div {
+    padding: 42px;
+    @include flex-dir(column);
+    gap: 16px;
+}
+
+.price{
+    font-size: 38px;
+}
+
+.period{
+    color: #6a6767cc;
+    font-size: 19px;
+}
+.button-div{
+    background-color: #f1f1f1;
+}
+ /*=================================
+  plans styling ends here
+=================================*/ 
