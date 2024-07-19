@@ -100,7 +100,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1920px;
-  width: 86.7%;
+  width: 96.6%;
   margin: 0 auto; }
 
 .all-caps, .single-caps::first-letter {
@@ -234,6 +234,46 @@ h1 {
 
 /*=================================
   banner styling ends here
+=================================*/
+/*=================================
+  offer styling starts here
+=================================*/
+.offer {
+  padding-bottom: 50px; }
+  .offer h2 {
+    width: 18%;
+    margin: auto;
+    font-size: 33px;
+    padding-bottom: 19px;
+    border-bottom: 8px solid #cccc; }
+  .offer-list {
+    display: flex; }
+    .offer-list li {
+      padding: 42px 20px 35px;
+      margin-top: 60px; }
+    .offer-list h3 {
+      font-size: 30px;
+      margin-bottom: 26px; }
+    .offer-list p {
+      font-size: 19px;
+      line-height: 24px; }
+
+.offer1 {
+  background-color: #f1f1f1; }
+
+.offer2 {
+  background-color: #bbbbbb; }
+
+.offer3 {
+  background-color: #616161;
+  color: #fff; }
+
+.offer4 {
+  background-color: #000000;
+  color: #fff; }
+
+ /*=================================
+  offer styling ends here
 =================================*/
 /*=================================
   main styling ends here
